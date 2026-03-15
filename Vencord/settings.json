@@ -69,7 +69,7 @@
                 "consistent": "image"
             },
             "AppleMusicRichPresence": {
-                "enabled": false
+                "enabled": true
             },
             "BANger": {
                 "enabled": false
