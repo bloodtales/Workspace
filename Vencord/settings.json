@@ -661,16 +661,6 @@
             "NoticesAPI": {
                 "enabled": true
             },
-            "VoiceUserButtons": {
-                "enabled": true,
-                "showChatButton": false,
-                "showMuteButton": true,
-                "showDeafenButton": true,
-                "muteSoundboard": false,
-                "disableVideo": false,
-                "showButtonsSelf": "disable",
-                "whichNameToShow": "username"
-            },
             "CustomCommands": {
                 "enabled": false
             }
