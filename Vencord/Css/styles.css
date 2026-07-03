@@ -1,21 +1,27 @@
 /* External Snippets */ 
- @import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/CompactButtons.css');
- @import url("https://raw.githubusercontent.com/yiruzu/vencord-snippets/refs/heads/main/snippets/UserActivityRedesign/import.css");
+@import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/CompactButtons.css');
+@import url("https://raw.githubusercontent.com/yiruzu/vencord-snippets/refs/heads/main/snippets/UserActivityRedesign/import.css");
 
 /* Custom Fonts Import */ 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
 
 /* Custom Themes Import */
-    @import url('https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/refs/heads/master/Themes/EmojiReplace/EmojiReplace.theme.css');
-* {
+@import url('https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/refs/heads/master/Themes/EmojiReplace/EmojiReplace.theme.css');
+
 /* Custom Font */
+[class^="sidebar_"], 
+[class^="chat_"], 
+[class^="chatContent_"], 
+[class^="container_"][id^="chat-messages-"] {
     font-family: 'Quicksand', sans-serif !important;
 }
+
 /* Boost Page */
 [class^=powerupContainer] {
     display: flex;
     > :not([class^=parentContainer]) { display: none; }
 }
+
 /* Compact Context Menu */
 div[aria-label*="Actions"]>div[dir="ltr"] {
 
