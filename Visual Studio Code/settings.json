@@ -61,8 +61,5 @@
     "terminal.integrated.smoothScrolling": true,
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "glassit.alpha": 220,
-    "remote.SSH.remotePlatform": {
-        "elfen": "windows"
-    },
     "explorer.confirmDragAndDrop": false
 }
